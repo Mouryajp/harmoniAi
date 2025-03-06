@@ -1,8 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HarmoniAI - A RAG Chatbot
+
+## Introduction
+
+Hello! I'm Mourya JP, and I built this project using the **Next.js** framework along with **DataStax Astra**, **Google AI Studio**, and **LangChain**. This project is a **Retrieval-Augmented Generation (RAG) chatbot** called **HarmoniAI**, designed to provide insightful and supportive responses related to mental health and well-being.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, use one of the following commands:
 
 ```bash
 npm run dev
@@ -14,23 +18,34 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Editing
+You can start editing by modifying `app/page.tsx`. The page auto-updates as you make changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
+
+- **[Next.js](https://nextjs.org)** - React framework for server-side rendering and static site generation.
+- **[DataStax Astra](https://www.datastax.com/products/datastax-astra)** - Database solution used for storing and retrieving vector embeddings.
+- **[Google AI Studio](https://aistudio.google.com/)** - Utilized for AI-powered responses and embeddings.
+- **[LangChain](https://python.langchain.com/)** - Framework used to build LLM-powered applications with retrieval-based AI.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To dive deeper into the technologies used, explore the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [DataStax Astra Docs](https://www.datastax.com/docs) - Explore Astra DB capabilities.
+- [Google AI Studio](https://aistudio.google.com/) - Learn how AI models can enhance applications.
+- [LangChain Docs](https://python.langchain.com/) - Understand how to build applications with retrieval-augmented generation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploying HarmoniAI
 
-## Deploy on Vercel
+The easiest way to deploy this Next.js app is through **[Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For deployment instructions, check out the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+I hope you find **HarmoniAI** useful. Contributions and feedback are always welcome!
+
